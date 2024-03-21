@@ -1,12 +1,10 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
-import MessageContainer from '../../components/messages/MessageContainer'
 
 const Home = () => {
   return (
-    <div className='flex sm:h-[450px] md:h-[550px] rounded-lg overflow-hidden bg-gray-800 '>
+    <div className='flex w-screen h-screen rounded-lg overflow-hidden bg-gray-800 '>
         <Sidebar />
-        <MessageContainer />
     </div>
   )
 }
